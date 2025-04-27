@@ -1,0 +1,51 @@
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 0.75rem 0.75rem 0 0;
+  }
+  
+  .card-body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+  }
+  .card{
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}  
+
+  .card img:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s linear;
+    transition-timing-function: ease-out;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 20px;
+    }
+
+}

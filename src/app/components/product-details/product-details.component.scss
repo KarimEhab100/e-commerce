@@ -1,0 +1,20 @@
+/* Product Images Layout */
+.col-lg-6.d-flex {
+    height: 600px;
+}
+
+.d-flex.flex-column.gap-3.me-3 {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.d-flex.flex-column.gap-3.me-3 img {
+    height: calc((100% - 2rem) / 3);
+    object-fit: cover;
+    width: 100px;
+}
+
+.flex-grow-1 img {
+    height: 100%;
+    object-fit: cover;
+}
