@@ -55,7 +55,6 @@ e-commerce/
 ## 📌 Notes
 
 - This project is still in its early stages and may receive more features soon.
-- Currently, there is no live demo available.
 
 ## 👤 Developer
 
